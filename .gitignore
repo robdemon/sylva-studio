@@ -31,3 +31,6 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# Full-res originals (kept locally, not deployed)
+originals/

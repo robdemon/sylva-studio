@@ -2,6 +2,14 @@
 // Placeholder images use picsum (deterministic per seed) so the layout always renders.
 const img = (seed) => `https://picsum.photos/seed/${seed}/900/1100`
 
+// Local gallery photography (bundled + hashed by Vite at build time).
+import gallery1 from '../images/IMG_0035.jpg'
+import gallery2 from '../images/IMG_0047.JPG'
+import gallery3 from '../images/IMG_0048.JPG'
+import gallery4 from '../images/IMG_0049.JPG'
+import gallery5 from '../images/IMG_0089.JPG'
+import gallery6 from '../images/IMG_9759.JPG'
+
 export const categories = ['All', 'Aquariums', 'Live Coral', 'Rare Species', 'Custom Tanks']
 
 export const products = [
@@ -88,12 +96,12 @@ export const products = [
 ]
 
 export const galleryImages = [
-  { src: 'https://picsum.photos/seed/cfa-g1/1200/1500', span: 'row-span-2', alt: 'A full reef display under blue light' },
-  { src: 'https://picsum.photos/seed/cfa-g2/1200/800', span: '', alt: 'Coral frags on a propagation rack' },
-  { src: 'https://picsum.photos/seed/cfa-g3/1200/800', span: '', alt: 'A clownfish hosting an anemone' },
-  { src: 'https://picsum.photos/seed/cfa-g4/1200/1500', span: 'row-span-2', alt: 'A peninsula tank in a living room' },
-  { src: 'https://picsum.photos/seed/cfa-g5/1200/800', span: '', alt: 'Macro shot of torch coral tips' },
-  { src: 'https://picsum.photos/seed/cfa-g6/1200/800', span: '', alt: 'A school of fish over live rock' },
+  { src: gallery1, span: 'row-span-2', alt: 'A full reef display under blue light' },
+  { src: gallery2, span: '', alt: 'Coral frags on a propagation rack' },
+  { src: gallery3, span: '', alt: 'A clownfish hosting an anemone' },
+  { src: gallery4, span: 'row-span-2', alt: 'A peninsula tank in a living room' },
+  { src: gallery5, span: '', alt: 'Macro shot of torch coral tips' },
+  { src: gallery6, span: '', alt: 'A school of fish over live rock' },
 ]
 
 export const stats = [

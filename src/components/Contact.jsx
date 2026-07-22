@@ -28,7 +28,7 @@ export default function Contact() {
             <div>
               <div className="text-[10px] uppercase tracking-[0.25em] text-white/40">Reach us</div>
               <p className="mt-2">
-                <a href="mailto:hello@cleverfish.example" className="link-underline">hello@cleverfish.example</a>
+                <a href="mailto:hello@sylvastudio.example" className="link-underline">hello@sylvastudio.example</a>
                 <br />
                 (555) 018-2240
               </p>

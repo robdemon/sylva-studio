@@ -1,9 +1,9 @@
 {
-  "name": "clever-fish-aquarium",
+  "name": "sylva-studio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Clever Fish Aquarium — where the reef comes home. Bold, editorial storefront for aquariums, live coral, and rare species.",
+  "description": "Sylva Studio — where the reef comes home. Bold, editorial storefront for aquariums, live coral, and rare species.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

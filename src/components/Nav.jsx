@@ -27,7 +27,7 @@ export default function Nav() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
         <a href="#top" className="flex items-center gap-2 font-display text-lg tracking-wide">
           <span aria-hidden>🐠</span>
-          <span>CLEVER&nbsp;FISH</span>
+          <span>SYLVA&nbsp;STUDIO</span>
         </a>
 
         <div className="hidden items-center gap-9 md:flex">

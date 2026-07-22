@@ -1,4 +1,4 @@
-# Clever Fish Aquarium 🐠
+# Sylva Studio 🐠
 
 > Where the reef comes home.
 

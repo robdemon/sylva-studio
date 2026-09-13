@@ -11,13 +11,13 @@ html {
 }
 
 body {
-  @apply bg-ink text-white font-sans antialiased;
+  @apply bg-ink text-bone font-sans antialiased;
   overflow-x: hidden;
 }
 
 /* Editorial helpers */
 .eyebrow {
-  @apply font-mono text-[11px] tracking-[0.35em] uppercase text-white/50;
+  @apply font-mono text-[11px] tracking-[0.35em] uppercase text-bone/50;
 }
 
 .headline {
@@ -44,14 +44,14 @@ body {
   width: 9px;
 }
 ::-webkit-scrollbar-track {
-  background: #050506;
+  background: #151a13;
 }
 ::-webkit-scrollbar-thumb {
-  background: #123;
+  background: #3e4b35;
   border-radius: 99px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #0fb8c9;
+  background: #6f7f5b;
 }
 
 /* Marquee */

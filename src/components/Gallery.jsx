@@ -12,7 +12,7 @@ export default function Gallery() {
             experience
           </h2>
         </div>
-        <p className="max-w-sm text-white/60">
+        <p className="max-w-sm text-bone/60">
           Every tank on the floor is running, stable, and photographed the day it lands. What you see
           is what swims home.
         </p>
@@ -30,7 +30,7 @@ export default function Gallery() {
               loading="lazy"
               className="h-full w-full object-cover brightness-[1.05] saturate-[1.15] transition duration-700 group-hover:scale-105"
             />
-            <figcaption className="absolute inset-x-0 bottom-0 translate-y-4 bg-gradient-to-t from-black/80 to-transparent p-4 font-mono text-[10px] uppercase tracking-[0.2em] text-white/80 opacity-0 transition duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+            <figcaption className="absolute inset-x-0 bottom-0 translate-y-4 bg-gradient-to-t from-forest/80 to-transparent p-4 font-mono text-[10px] uppercase tracking-[0.2em] text-bone/80 opacity-0 transition duration-500 group-hover:translate-y-0 group-hover:opacity-100">
               {g.alt}
             </figcaption>
           </figure>

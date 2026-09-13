@@ -9,12 +9,19 @@ export default {
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       colors: {
-        ink: '#050506',
+        // Palette source: Documents/Color_Palatte.jpeg
+        bone: '#F4F1EA',
+        sand: '#D8D2C5',
+        sage: '#6F7F5B',
+        olive: '#3E4B35',
+        forest: '#1E241B',
+        night: '#151A13',
+        ink: '#1E241B',
         reef: {
-          deep: '#031a2b',
-          teal: '#0fb8c9',
-          coral: '#ff5a3c',
-          glow: '#4de3d1',
+          deep: '#3E4B35',
+          teal: '#6F7F5B',
+          coral: '#D8D2C5',
+          glow: '#D8D2C5',
         },
       },
       keyframes: {
